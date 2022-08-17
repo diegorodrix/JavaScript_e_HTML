@@ -1,0 +1,29 @@
+<meta charset="UTF+8">
+
+<title> Gerações </title>
+
+	<script>
+
+		function título (Gerações) {
+			document.write (Gerações);
+		}
+
+		function pulaLinha () {
+			document.write ("<br>");
+		}
+
+		function mostra (frase){
+			document.write (frase);
+		}
+
+		var chegadaPortugueses = 1500;
+		var anoAtual = 2050;
+		var mediaFilhos = 28;
+		var mediaGeracoes = Math.round((anoAtual - chegadaPortugueses) / (mediaFilhos));
+
+		título ("<h1> Geração </h1>");
+		pulaLinha();
+		mostra ("Desde 1500 até o ano atual se passaram " + mediaGeracoes + " gerações de portugueses no Brasil.");
+
+
+	</script>
